@@ -9,4 +9,5 @@ public class LoginControl {
         * */
         return (username == String.valueOf("A")) & (password == String.valueOf("A"));
 
+    }
 }
