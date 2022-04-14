@@ -15,6 +15,7 @@ public class TelaLoginView extends JFrame{
     private JButton loginButton;
 
     public TelaLoginView(String titulo){
+
         super(titulo);
         this.setSize(450,200);
         this.setVisible(true);
