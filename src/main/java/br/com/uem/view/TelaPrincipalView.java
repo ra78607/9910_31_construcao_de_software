@@ -1,17 +1,22 @@
 package br.com.uem.view;
 
+import br.com.uem.control.LoginControl;
+
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-public class TelaPrincipalView extends javax.swing.JFrame{
+public class TelaPrincipalView extends javax.swing.JFrame {
 
-    private JButton entrarButton;
-    private JTextField loginTextField;
-    private JTextField senhaTextField;
-    private JPanel main;
+    private JPanel telaPrincipal;
+    private JButton cadastrosButton;
+    private JButton emprestimosButton;
+    private JButton faturamentoButton;
+    private JButton relatoriosButton;
 
     public TelaPrincipalView() {
-
+        this.setSize(900, 300);
+        this.setVisible(true);
+        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        this.setContentPane(telaPrincipal);
     }
+
 }
