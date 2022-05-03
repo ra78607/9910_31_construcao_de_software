@@ -2,7 +2,7 @@ package br.com.uem.model;
 
 import java.util.Date;
 
-public class ManterClientes extends Pessoa {
+public class Cliente extends Pessoa {
 
     private Date dataCadastro;
 
