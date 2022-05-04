@@ -12,7 +12,6 @@ public class Cliente extends Pessoa {
 
     private String situacao;
 
-
     public Date getDataCadastro() {
         return dataCadastro;
     }
